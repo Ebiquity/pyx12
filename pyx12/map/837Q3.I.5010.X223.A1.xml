@@ -106,14 +106,14 @@
         <name>Interchange Date</name>
         <usage>R</usage>
         <seq>09</seq>
-        <valid_codes />
+        <valid_codes/>
       </element>
       <element xid="ISA10">
         <data_ele>I09</data_ele>
         <name>Interchange Time</name>
         <usage>R</usage>
         <seq>10</seq>
-        <valid_codes />
+        <valid_codes/>
       </element>
       <element xid="ISA11">
         <data_ele>I65</data_ele>
@@ -163,7 +163,7 @@
         <seq>16</seq>
       </element>
     </segment>
-    <!--End   of ISA segment-->
+    <!--End of ISA segment-->
     <loop xid="GS_LOOP" type="explicit">
       <name>Functional Group Header</name>
       <usage>R</usage>
@@ -200,14 +200,14 @@
           <name>Date</name>
           <usage>R</usage>
           <seq>04</seq>
-          <valid_codes />
+          <valid_codes/>
         </element>
         <element xid="GS05">
           <data_ele>337</data_ele>
           <name>Time</name>
           <usage>R</usage>
           <seq>05</seq>
-          <valid_codes />
+          <valid_codes/>
         </element>
         <element xid="GS06">
           <data_ele>28</data_ele>
@@ -234,7 +234,7 @@
           </valid_codes>
         </element>
       </segment>
-      <!--End     of GS segment-->
+      <!--End of GS segment-->
       <loop xid="ST_LOOP" type="explicit">
         <name>Transaction Set Header</name>
         <usage>R</usage>
@@ -329,7 +329,7 @@
               </valid_codes>
             </element>
           </segment>
-          <!--End         of BHT segment-->
+          <!--End of BHT segment-->
           <loop xid="1000A">
             <name>Submitter Name</name>
             <usage>R</usage>
@@ -426,7 +426,7 @@
                 <seq>12</seq>
               </element>
             </segment>
-            <!--End           of NM1 segment-->
+            <!--End of NM1 segment-->
             <segment xid="PER">
               <name>Submitter EDI Contact Information</name>
               <usage>R</usage>
@@ -510,9 +510,9 @@
                 <seq>09</seq>
               </element>
             </segment>
-            <!--End           of PER segment-->
+            <!--End of PER segment-->
           </loop>
-          <!--End         of 1000A loop-->
+          <!--End of 1000A loop-->
           <loop xid="1000B">
             <name>Receiver Name</name>
             <usage>R</usage>
@@ -608,11 +608,11 @@
                 <seq>12</seq>
               </element>
             </segment>
-            <!--End           of NM1 segment-->
+            <!--End of NM1 segment-->
           </loop>
-          <!--End         of 1000B loop-->
+          <!--End of 1000B loop-->
         </loop>
-        <!--End       of Header loop-->
+        <!--End of Header loop-->
         <loop xid="DETAIL" type="wrapper">
           <name>Table 2 - Detail</name>
           <usage>R</usage>
@@ -659,7 +659,7 @@
                 </valid_codes>
               </element>
             </segment>
-            <!--End           of HL segment-->
+            <!--End of HL segment-->
             <segment xid="PRV">
               <name>Billing Provider Specialty Information</name>
               <usage>S</usage>
@@ -709,7 +709,7 @@
                 <seq>06</seq>
               </element>
             </segment>
-            <!--End           of PRV segment-->
+            <!--End of PRV segment-->
             <segment xid="CUR">
               <name>Foreign Currency Information</name>
               <usage>S</usage>
@@ -860,7 +860,7 @@
                 <seq>21</seq>
               </element>
             </segment>
-            <!--End           of CUR segment-->
+            <!--End of CUR segment-->
             <loop xid="2010AA">
               <name>Billing Provider Name</name>
               <usage>R</usage>
@@ -956,7 +956,7 @@
                   <seq>12</seq>
                 </element>
               </segment>
-              <!--End             of NM1 segment-->
+              <!--End of NM1 segment-->
               <segment xid="N3">
                 <name>Billing Provider Address</name>
                 <usage>R</usage>
@@ -975,7 +975,7 @@
                   <seq>02</seq>
                 </element>
               </segment>
-              <!--End             of N3 segment-->
+              <!--End of N3 segment-->
               <segment xid="N4">
                 <name>Billing Provider City, State, ZIP Code</name>
                 <usage>R</usage>
@@ -1029,7 +1029,7 @@
                   <seq>07</seq>
                 </element>
               </segment>
-              <!--End             of N4 segment-->
+              <!--End of N4 segment-->
               <segment xid="REF">
                 <name>Billing Provider Tax Identification</name>
                 <usage>R</usage>
@@ -1064,7 +1064,7 @@
                   <seq>04</seq>
                 </composite>
               </segment>
-              <!--End             of REF segment-->
+              <!--End of REF segment-->
               <segment xid="PER">
                 <name>Billing Provider Contact Information</name>
                 <usage>S</usage>
@@ -1148,9 +1148,9 @@
                   <seq>09</seq>
                 </element>
               </segment>
-              <!--End             of PER segment-->
+              <!--End of PER segment-->
             </loop>
-            <!--End           of 2010AA loop-->
+            <!--End of 2010AA loop-->
             <loop xid="2010AB">
               <name>Pay-to Address Name</name>
               <usage>S</usage>
@@ -1243,7 +1243,7 @@
                   <seq>12</seq>
                 </element>
               </segment>
-              <!--End             of NM1 segment-->
+              <!--End of NM1 segment-->
               <segment xid="N3">
                 <name>Pay-to Address - ADDRESS</name>
                 <usage>R</usage>
@@ -1262,7 +1262,7 @@
                   <seq>02</seq>
                 </element>
               </segment>
-              <!--End             of N3 segment-->
+              <!--End of N3 segment-->
               <segment xid="N4">
                 <name>Pay-To Address City, State, ZIP Code</name>
                 <usage>R</usage>
@@ -1316,9 +1316,9 @@
                   <seq>07</seq>
                 </element>
               </segment>
-              <!--End             of N4 segment-->
+              <!--End of N4 segment-->
             </loop>
-            <!--End           of 2010AB loop-->
+            <!--End of 2010AB loop-->
             <loop xid="2010AC">
               <name>Pay-To Plan Name</name>
               <usage>S</usage>
@@ -1415,7 +1415,7 @@
                   <seq>12</seq>
                 </element>
               </segment>
-              <!--End             of NM1 segment-->
+              <!--End of NM1 segment-->
               <segment xid="N3">
                 <name>Pay-to Plan Address</name>
                 <usage>R</usage>
@@ -1434,7 +1434,7 @@
                   <seq>02</seq>
                 </element>
               </segment>
-              <!--End             of N3 segment-->
+              <!--End of N3 segment-->
               <segment xid="N4">
                 <name>Pay-To Plan City, State, ZIP Code</name>
                 <usage>R</usage>
@@ -1487,7 +1487,7 @@
                   <seq>07</seq>
                 </element>
               </segment>
-              <!--End             of N4 segment-->
+              <!--End of N4 segment-->
               <segment xid="REF">
                 <name>Pay-to Plan Secondary Identification</name>
                 <usage>S</usage>
@@ -1524,7 +1524,7 @@
                   <seq>04</seq>
                 </composite>
               </segment>
-              <!--End             of REF segment-->
+              <!--End of REF segment-->
               <segment xid="REF">
                 <name>Pay-To Plan Tax Identification Number</name>
                 <usage>R</usage>
@@ -1559,9 +1559,9 @@
                   <seq>04</seq>
                 </composite>
               </segment>
-              <!--End             of REF segment-->
+              <!--End of REF segment-->
             </loop>
-            <!--End           of 2010AC loop-->
+            <!--End of 2010AC loop-->
             <loop xid="2000B">
               <name>Subscriber Hierarchical Level</name>
               <usage>R</usage>
@@ -1604,7 +1604,7 @@
                   </valid_codes>
                 </element>
               </segment>
-              <!--End             of HL segment-->
+              <!--End of HL segment-->
               <segment xid="SBR">
                 <name>Subscriber Information</name>
                 <usage>R</usage>
@@ -1707,7 +1707,7 @@
                   </valid_codes>
                 </element>
               </segment>
-              <!--End             of SBR segment-->
+              <!--End of SBR segment-->
               <loop xid="2010BA">
                 <name>Subscriber Name</name>
                 <usage>R</usage>
@@ -1805,7 +1805,7 @@
                     <seq>12</seq>
                   </element>
                 </segment>
-                <!--End               of NM1 segment-->
+                <!--End of NM1 segment-->
                 <segment xid="N3">
                   <name>Subscriber Address</name>
                   <usage>S</usage>
@@ -1824,7 +1824,7 @@
                     <seq>02</seq>
                   </element>
                 </segment>
-                <!--End               of N3 segment-->
+                <!--End of N3 segment-->
                 <segment xid="N4">
                   <name>Subscriber City, State, ZIP Code</name>
                   <usage>S</usage>
@@ -1878,7 +1878,7 @@
                     <seq>07</seq>
                   </element>
                 </segment>
-                <!--End               of N4 segment-->
+                <!--End of N4 segment-->
                 <segment xid="DMG">
                   <name>Subscriber Demographic Information</name>
                   <usage>S</usage>
@@ -1963,7 +1963,7 @@
                     <seq>11</seq>
                   </element>
                 </segment>
-                <!--End               of DMG segment-->
+                <!--End of DMG segment-->
                 <segment xid="REF">
                   <name>Subscriber Secondary Identification</name>
                   <usage>S</usage>
@@ -1998,7 +1998,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Property and Casualty Claim Number</name>
                   <usage>S</usage>
@@ -2033,9 +2033,9 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
               </loop>
-              <!--End             of 2010BA loop-->
+              <!--End of 2010BA loop-->
               <loop xid="2010BB">
                 <name>Payer Name</name>
                 <usage>R</usage>
@@ -2132,7 +2132,7 @@
                     <seq>12</seq>
                   </element>
                 </segment>
-                <!--End               of NM1 segment-->
+                <!--End of NM1 segment-->
                 <segment xid="N3">
                   <name>Payer Address</name>
                   <usage>S</usage>
@@ -2151,7 +2151,7 @@
                     <seq>02</seq>
                   </element>
                 </segment>
-                <!--End               of N3 segment-->
+                <!--End of N3 segment-->
                 <segment xid="N4">
                   <name>Payer City, State, ZIP Code</name>
                   <usage>S</usage>
@@ -2205,7 +2205,7 @@
                     <seq>07</seq>
                   </element>
                 </segment>
-                <!--End               of N4 segment-->
+                <!--End of N4 segment-->
                 <segment xid="REF">
                   <name>Payer Secondary Identification</name>
                   <usage>S</usage>
@@ -2243,7 +2243,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Billing Provider Secondary Identification</name>
                   <usage>S</usage>
@@ -2279,9 +2279,9 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
               </loop>
-              <!--End             of 2010BB loop-->
+              <!--End of 2010BB loop-->
               <loop xid="2300">
                 <name>Claim Information</name>
                 <usage>S</usage>
@@ -2463,7 +2463,7 @@
                     </valid_codes>
                   </element>
                 </segment>
-                <!--End               of CLM segment-->
+                <!--End of CLM segment-->
                 <segment xid="DTP">
                   <name>Discharge Hour</name>
                   <usage>S</usage>
@@ -2494,7 +2494,7 @@
                     <seq>03</seq>
                   </element>
                 </segment>
-                <!--End               of DTP segment-->
+                <!--End of DTP segment-->
                 <segment xid="DTP">
                   <name>Statement Dates</name>
                   <usage>R</usage>
@@ -2525,7 +2525,7 @@
                     <seq>03</seq>
                   </element>
                 </segment>
-                <!--End               of DTP segment-->
+                <!--End of DTP segment-->
                 <segment xid="DTP">
                   <name>Admission Date/Hour</name>
                   <usage>S</usage>
@@ -2557,7 +2557,7 @@
                     <seq>03</seq>
                   </element>
                 </segment>
-                <!--End               of DTP segment-->
+                <!--End of DTP segment-->
                 <segment xid="DTP">
                   <name>Date - Repricer Received Date</name>
                   <usage>S</usage>
@@ -2588,7 +2588,7 @@
                     <seq>03</seq>
                   </element>
                 </segment>
-                <!--End               of DTP segment-->
+                <!--End of DTP segment-->
                 <segment xid="CL1">
                   <name>Institutional Claim Code</name>
                   <usage>R</usage>
@@ -2619,7 +2619,7 @@
                     <seq>04</seq>
                   </element>
                 </segment>
-                <!--End               of CL1 segment-->
+                <!--End of CL1 segment-->
                 <segment xid="PWK">
                   <name>Claim Supplemental Information</name>
                   <usage>S</usage>
@@ -2755,7 +2755,7 @@
                     <seq>09</seq>
                   </element>
                 </segment>
-                <!--End               of PWK segment-->
+                <!--End of PWK segment-->
                 <segment xid="CN1">
                   <name>Contract Information</name>
                   <usage>S</usage>
@@ -2807,7 +2807,7 @@
                     <seq>06</seq>
                   </element>
                 </segment>
-                <!--End               of CN1 segment-->
+                <!--End of CN1 segment-->
                 <segment xid="AMT">
                   <name>Patient Estimated Amount Due</name>
                   <usage>S</usage>
@@ -2835,7 +2835,7 @@
                     <seq>03</seq>
                   </element>
                 </segment>
-                <!--End               of AMT segment-->
+                <!--End of AMT segment-->
                 <segment xid="REF">
                   <name>Service Authorization Exception Code</name>
                   <usage>S</usage>
@@ -2870,7 +2870,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Referral Number</name>
                   <usage>S</usage>
@@ -2905,7 +2905,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Prior Authorization</name>
                   <usage>S</usage>
@@ -2940,7 +2940,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Payer Claim Control Number</name>
                   <usage>S</usage>
@@ -2975,7 +2975,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Repriced Claim Number</name>
                   <usage>S</usage>
@@ -3010,7 +3010,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Adjusted Repriced Claim Number</name>
                   <usage>S</usage>
@@ -3045,7 +3045,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Investigational Device Exemption Number</name>
                   <usage>S</usage>
@@ -3080,7 +3080,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Claim Identifier For Transmission Intermediaries</name>
                   <usage>S</usage>
@@ -3115,7 +3115,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Auto Accident State</name>
                   <usage>S</usage>
@@ -3150,7 +3150,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Medical Record Number</name>
                   <usage>S</usage>
@@ -3185,7 +3185,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Demonstration Project Identifier</name>
                   <usage>S</usage>
@@ -3220,7 +3220,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="REF">
                   <name>Peer Review Organization (PRO) Approval Number</name>
                   <usage>S</usage>
@@ -3255,7 +3255,7 @@
                     <seq>04</seq>
                   </composite>
                 </segment>
-                <!--End               of REF segment-->
+                <!--End of REF segment-->
                 <segment xid="K3">
                   <name>File Information</name>
                   <usage>S</usage>
@@ -3280,7 +3280,7 @@
                     <seq>03</seq>
                   </composite>
                 </segment>
-                <!--End               of K3 segment-->
+                <!--End of K3 segment-->
                 <segment xid="NTE">
                   <name>Claim Note</name>
                   <usage>S</usage>
@@ -3315,7 +3315,7 @@
                     <seq>02</seq>
                   </element>
                 </segment>
-                <!--End               of NTE segment-->
+                <!--End of NTE segment-->
                 <segment xid="NTE">
                   <name>Billing Note</name>
                   <usage>S</usage>
@@ -3337,7 +3337,7 @@
                     <seq>02</seq>
                   </element>
                 </segment>
-                <!--End               of NTE segment-->
+                <!--End of NTE segment-->
                 <segment xid="CRC">
                   <name>EPSDT Referral</name>
                   <usage>S</usage>
@@ -3399,7 +3399,7 @@
                     <seq>07</seq>
                   </element>
                 </segment>
-                <!--End               of CRC segment-->
+                <!--End of CRC segment-->
                 <segment xid="HI">
                   <name>Principal Diagnosis</name>
                   <usage>R</usage>
@@ -3542,7 +3542,7 @@
                     <seq>12</seq>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Admitting Diagnosis</name>
                   <usage>S</usage>
@@ -3679,7 +3679,7 @@
                     <seq>12</seq>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Patient's Reason For Visit</name>
                   <usage>S</usage>
@@ -3932,7 +3932,7 @@
                     <seq>12</seq>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>External Cause of Injury</name>
                   <usage>S</usage>
@@ -4779,7 +4779,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Diagnosis Related Group (DRG) Information</name>
                   <usage>S</usage>
@@ -4915,7 +4915,7 @@
                     <seq>12</seq>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Other Diagnosis Information</name>
                   <usage>S</usage>
@@ -5762,7 +5762,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Principal Procedure Information</name>
                   <usage>S</usage>
@@ -5903,7 +5903,7 @@
                     <seq>12</seq>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Other Procedure Information</name>
                   <usage>S</usage>
@@ -6714,7 +6714,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Occurrence Span Information</name>
                   <usage>S</usage>
@@ -7513,7 +7513,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Occurrence Information</name>
                   <usage>S</usage>
@@ -8312,7 +8312,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Value Information</name>
                   <usage>S</usage>
@@ -9075,7 +9075,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Condition Information</name>
                   <usage>S</usage>
@@ -9838,7 +9838,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HI">
                   <name>Treatment Code Information</name>
                   <usage>S</usage>
@@ -10601,7 +10601,7 @@
                     </element>
                   </composite>
                 </segment>
-                <!--End               of HI segment-->
+                <!--End of HI segment-->
                 <segment xid="HCP">
                   <name>Claim Pricing/Repricing Information</name>
                   <usage>S</usage>
@@ -10745,7 +10745,7 @@
                     </valid_codes>
                   </element>
                 </segment>
-                <!--End               of HCP segment-->
+                <!--End of HCP segment-->
                 <loop xid="2310A">
                   <name>Attending Provider Name</name>
                   <usage>S</usage>
@@ -10931,7 +10931,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310A loop-->
+                <!--End of 2310A loop-->
                 <loop xid="2310B">
                   <name>Operating Physician Name</name>
                   <usage>S</usage>
@@ -11067,7 +11067,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310B loop-->
+                <!--End of 2310B loop-->
                 <loop xid="2310C">
                   <name>Other Operating Physician Name</name>
                   <usage>S</usage>
@@ -11203,7 +11203,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310C loop-->
+                <!--End of 2310C loop-->
                 <loop xid="2310D">
                   <name>Rendering Provider Name</name>
                   <usage>S</usage>
@@ -11339,7 +11339,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310D loop-->
+                <!--End of 2310D loop-->
                 <loop xid="2310E">
                   <name>Service Facility Location Name</name>
                   <usage>S</usage>
@@ -11546,7 +11546,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310E loop-->
+                <!--End of 2310E loop-->
                 <loop xid="2310F">
                   <name>Referring Provider Name</name>
                   <usage>S</usage>
@@ -11681,7 +11681,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2310F loop-->
+                <!--End of 2310F loop-->
                 <loop xid="2320">
                   <name>Other Subscriber Information</name>
                   <usage>S</usage>
@@ -13816,7 +13816,7 @@
                   </loop>
                   <!--End of 2330I loop-->
                 </loop>
-                <!--End               of 2320 loop-->
+                <!--End of 2320 loop-->
                 <loop xid="2400">
                   <name>Service Line Number</name>
                   <usage>R</usage>
@@ -15900,9 +15900,9 @@
                   </loop>
                   <!--End of 2430 loop-->
                 </loop>
-                <!--End               of 2400 loop-->
+                <!--End of 2400 loop-->
               </loop>
-              <!--End             of 2300 loop-->
+              <!--End of 2300 loop-->
               <loop xid="2000C">
                 <name>Patient Hierarchical Level</name>
                 <usage>S</usage>
@@ -15944,7 +15944,7 @@
                     </valid_codes>
                   </element>
                 </segment>
-                <!--End               of HL segment-->
+                <!--End of HL segment-->
                 <segment xid="PAT">
                   <name>Patient Information</name>
                   <usage>R</usage>
@@ -16017,7 +16017,7 @@
                     <seq>09</seq>
                   </element>
                 </segment>
-                <!--End               of PAT segment-->
+                <!--End of PAT segment-->
                 <loop xid="2010CA">
                   <name>Patient Name</name>
                   <usage>R</usage>
@@ -16341,7 +16341,7 @@
                   </segment>
                   <!--End of REF segment-->
                 </loop>
-                <!--End               of 2010CA loop-->
+                <!--End of 2010CA loop-->
                 <loop xid="2300">
                   <name>Claim Information</name>
                   <usage>R</usage>
@@ -26457,7 +26457,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="N3">
                         <name>Other Subscriber Address</name>
                         <usage>S</usage>
@@ -26476,7 +26476,7 @@
                           <seq>02</seq>
                         </element>
                       </segment>
-                      <!--End   of N3 segment-->
+                      <!--End of N3 segment-->
                       <segment xid="N4">
                         <name>Other Subscriber City, State, ZIP Code</name>
                         <usage>S</usage>
@@ -26530,7 +26530,7 @@
                           <seq>07</seq>
                         </element>
                       </segment>
-                      <!--End   of N4 segment-->
+                      <!--End of N4 segment-->
                       <segment xid="REF">
                         <name>Other Subscriber Secondary Identification</name>
                         <usage>S</usage>
@@ -26565,7 +26565,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330A loop-->
                     <loop xid="2330B">
@@ -26664,7 +26664,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="N3">
                         <name>Other Payer Address</name>
                         <usage>S</usage>
@@ -26683,7 +26683,7 @@
                           <seq>02</seq>
                         </element>
                       </segment>
-                      <!--End   of N3 segment-->
+                      <!--End of N3 segment-->
                       <segment xid="N4">
                         <name>Other Payer City, State, ZIP Code</name>
                         <usage>S</usage>
@@ -26737,7 +26737,7 @@
                           <seq>07</seq>
                         </element>
                       </segment>
-                      <!--End   of N4 segment-->
+                      <!--End of N4 segment-->
                       <segment xid="DTP">
                         <name>Claim Check or Remittance Date</name>
                         <usage>S</usage>
@@ -26768,7 +26768,7 @@
                           <seq>03</seq>
                         </element>
                       </segment>
-                      <!--End   of DTP segment-->
+                      <!--End of DTP segment-->
                       <segment xid="REF">
                         <name>Other Payer Secondary Identifier</name>
                         <usage>S</usage>
@@ -26806,7 +26806,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                       <segment xid="REF">
                         <name>Other Payer Prior Authorization Number</name>
                         <usage>S</usage>
@@ -26841,7 +26841,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                       <segment xid="REF">
                         <name>Other Payer Referral Number</name>
                         <usage>S</usage>
@@ -26876,7 +26876,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                       <segment xid="REF">
                         <name>Other Payer Claim Adjustment Indicator</name>
                         <usage>S</usage>
@@ -26911,7 +26911,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                       <segment xid="REF">
                         <name>Other Payer Claim Control Number</name>
                         <usage>S</usage>
@@ -26946,7 +26946,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330B loop-->
                     <loop xid="2330C">
@@ -27041,7 +27041,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Attending Provider Secondary Identification</name>
                         <usage>R</usage>
@@ -27079,7 +27079,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330C loop-->
                     <loop xid="2330D">
@@ -27174,7 +27174,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Operating Physician Secondary Identification</name>
                         <usage>R</usage>
@@ -27212,7 +27212,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330D loop-->
                     <loop xid="2330E">
@@ -27307,7 +27307,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Other Operating Physician Secondary Identification</name>
                         <usage>R</usage>
@@ -27345,7 +27345,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330E loop-->
                     <loop xid="2330F">
@@ -27440,7 +27440,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Service Facility Location Secondary Identification</name>
                         <usage>R</usage>
@@ -27477,7 +27477,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330F loop-->
                     <loop xid="2330G">
@@ -27572,7 +27572,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Rendering Provider Secondary Identification</name>
                         <usage>R</usage>
@@ -27610,7 +27610,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330G loop-->
                     <loop xid="2330H">
@@ -27705,7 +27705,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Referring Provider Secondary Identification</name>
                         <usage>R</usage>
@@ -27742,7 +27742,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330H loop-->
                     <loop xid="2330I">
@@ -27837,7 +27837,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Payer Billing Provider Secondary Identification</name>
                         <usage>R</usage>
@@ -27873,7 +27873,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2330I loop-->
                   </loop>
@@ -28740,7 +28740,7 @@
                           <seq>31</seq>
                         </element>
                       </segment>
-                      <!--End   of LIN segment-->
+                      <!--End of LIN segment-->
                       <segment xid="CTP">
                         <name>Drug Quantity</name>
                         <usage>R</usage>
@@ -28915,7 +28915,7 @@
                           <seq>11</seq>
                         </element>
                       </segment>
-                      <!--End   of CTP segment-->
+                      <!--End of CTP segment-->
                       <segment xid="REF">
                         <name>Prescription or Compound Drug Association Number</name>
                         <usage>S</usage>
@@ -28951,7 +28951,7 @@
                           <seq>04</seq>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2410 loop-->
                     <loop xid="2420A">
@@ -29049,7 +29049,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Operating Physician Secondary Identification</name>
                         <usage>S</usage>
@@ -29126,7 +29126,7 @@
                           </element>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2420A loop-->
                     <loop xid="2420B">
@@ -29224,7 +29224,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Other Operating Physician Secondary Identification</name>
                         <usage>S</usage>
@@ -29301,7 +29301,7 @@
                           </element>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2420B loop-->
                     <loop xid="2420C">
@@ -29399,7 +29399,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Rendering Provider Secondary Identification</name>
                         <usage>S</usage>
@@ -29476,7 +29476,7 @@
                           </element>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2420C loop-->
                     <loop xid="2420D">
@@ -29574,7 +29574,7 @@
                           <seq>12</seq>
                         </element>
                       </segment>
-                      <!--End   of NM1 segment-->
+                      <!--End of NM1 segment-->
                       <segment xid="REF">
                         <name>Referring Provider Secondary Identification</name>
                         <usage>S</usage>
@@ -29650,7 +29650,7 @@
                           </element>
                         </composite>
                       </segment>
-                      <!--End   of REF segment-->
+                      <!--End of REF segment-->
                     </loop>
                     <!--End of 2420D loop-->
                     <loop xid="2430">
@@ -29755,7 +29755,7 @@
                           <seq>06</seq>
                         </element>
                       </segment>
-                      <!--End   of SVD segment-->
+                      <!--End of SVD segment-->
                       <segment xid="CAS">
                         <name>Line Adjustment</name>
                         <usage>S</usage>
@@ -29898,7 +29898,7 @@
                           <seq>19</seq>
                         </element>
                       </segment>
-                      <!--End   of CAS segment-->
+                      <!--End of CAS segment-->
                       <segment xid="DTP">
                         <name>Line Check or Remittance Date</name>
                         <usage>R</usage>
@@ -29929,7 +29929,7 @@
                           <seq>03</seq>
                         </element>
                       </segment>
-                      <!--End   of DTP segment-->
+                      <!--End of DTP segment-->
                       <segment xid="AMT">
                         <name>Remaining Patient Liability</name>
                         <usage>S</usage>
@@ -29957,21 +29957,21 @@
                           <seq>03</seq>
                         </element>
                       </segment>
-                      <!--End   of AMT segment-->
+                      <!--End of AMT segment-->
                     </loop>
                     <!--End of 2430 loop-->
                   </loop>
                   <!--End of 2400 loop-->
                 </loop>
-                <!--End               of 2300 loop-->
+                <!--End of 2300 loop-->
               </loop>
-              <!--End             of 2000C loop-->
+              <!--End of 2000C loop-->
             </loop>
-            <!--End           of 2000B loop-->
+            <!--End of 2000B loop-->
           </loop>
-          <!--End         of 2000A loop-->
+          <!--End of 2000A loop-->
         </loop>
-        <!--End       of Table 2 - Detail loop-->
+        <!--End of Table 2 - Detail loop-->
         <segment xid="SE">
           <name>Transaction Set Trailer</name>
           <usage>R</usage>
@@ -29991,7 +29991,7 @@
           </element>
         </segment>
       </loop>
-      <!--End     of ST loop-->
+      <!--End of ST loop-->
       <segment xid="GE">
         <name>Functional Group Trailer</name>
         <usage>R</usage>
@@ -30010,9 +30010,9 @@
           <seq>02</seq>
         </element>
       </segment>
-      <!--End     of GE segment-->
+      <!--End of GE segment-->
     </loop>
-    <!--End   of GS loop-->
+    <!--End of GS loop-->
     <segment xid="TA1">
       <name>Interchange Acknowledgement</name>
       <usage>S</usage>
@@ -30088,7 +30088,7 @@
         </valid_codes>
       </element>
     </segment>
-    <!--End   of TA1 segment-->
+    <!--End of TA1 segment-->
     <segment xid="IEA">
       <name>Interchange Control Trailer</name>
       <usage>R</usage>
@@ -30107,6 +30107,6 @@
         <seq>02</seq>
       </element>
     </segment>
-    <!--End   of IEA segment-->
+    <!--End of IEA segment-->
   </loop>
 </transaction>
