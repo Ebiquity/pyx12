@@ -10,8 +10,7 @@
 #
 ######################################################################
 -->
-<transaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xid="837Q3"
-  xsi:noNamespaceSchemaLocation="map.xsd">
+<transaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xid="837Q3" xsi:noNamespaceSchemaLocation="map.xsd">
   <name>HIPAA Health Care Claim - Institutional 005010X223A2 837Q3</name>
   <loop xid="ISA_LOOP" type="explicit">
     <name>Interchange Control Header</name>
@@ -743,7 +742,7 @@
                 <name>Currency Code</name>
                 <usage>R</usage>
                 <seq>02</seq>
-                <valid_codes external="currency" />
+                <valid_codes external="currency"/>
               </element>
               <element xid="CUR03">
                 <data_ele>280</data_ele>
@@ -1008,7 +1007,7 @@
                   <name>Country Code</name>
                   <usage>S</usage>
                   <seq>04</seq>
-                  <valid_codes external="country" />
+                  <valid_codes external="country"/>
                 </element>
                 <element xid="N405">
                   <data_ele>309</data_ele>
@@ -1282,7 +1281,7 @@
                   <name>Pay-to Address State Code</name>
                   <usage>S</usage>
                   <seq>02</seq>
-                  <valid_codes external="states" />
+                  <valid_codes external="states"/>
                 </element>
                 <element xid="N403">
                   <data_ele>116</data_ele>
@@ -1295,7 +1294,7 @@
                   <name>Country Code</name>
                   <usage>S</usage>
                   <seq>04</seq>
-                  <valid_codes external="country" />
+                  <valid_codes external="country"/>
                 </element>
                 <element xid="N405">
                   <data_ele>309</data_ele>
@@ -1466,7 +1465,7 @@
                   <name>Country Code</name>
                   <usage>S</usage>
                   <seq>04</seq>
-                  <valid_codes external="country" />
+                  <valid_codes external="country"/>
                 </element>
                 <element xid="N405">
                   <data_ele>309</data_ele>
@@ -1844,7 +1843,7 @@
                     <name>Subscriber State Code</name>
                     <usage>S</usage>
                     <seq>02</seq>
-                    <valid_codes external="states" />
+                    <valid_codes external="states"/>
                   </element>
                   <element xid="N403">
                     <data_ele>116</data_ele>
@@ -1857,7 +1856,7 @@
                     <name>Country Code</name>
                     <usage>S</usage>
                     <seq>04</seq>
-                    <valid_codes external="country" />
+                    <valid_codes external="country"/>
                   </element>
                   <element xid="N405">
                     <data_ele>309</data_ele>
@@ -2171,7 +2170,7 @@
                     <name>Payer State Code</name>
                     <usage>S</usage>
                     <seq>02</seq>
-                    <valid_codes external="states" />
+                    <valid_codes external="states"/>
                   </element>
                   <element xid="N403">
                     <data_ele>116</data_ele>
@@ -2184,7 +2183,7 @@
                     <name>Country Code</name>
                     <usage>S</usage>
                     <seq>04</seq>
-                    <valid_codes external="country" />
+                    <valid_codes external="country"/>
                   </element>
                   <element xid="N405">
                     <data_ele>309</data_ele>
@@ -11486,7 +11485,7 @@
                       <name>Country Code</name>
                       <usage>S</usage>
                       <seq>04</seq>
-                      <valid_codes external="country" />
+                      <valid_codes external="country"/>
                     </element>
                     <element xid="N405">
                       <data_ele>309</data_ele>
@@ -12111,7 +12110,7 @@
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>05</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MIA06">
                       <data_ele>782</data_ele>
@@ -12202,28 +12201,28 @@
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>20</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MIA21">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>21</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MIA22">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>22</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MIA23">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>23</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MIA24">
                       <data_ele>782</data_ele>
@@ -12255,35 +12254,35 @@
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>03</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MOA04">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>04</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MOA05">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>05</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MOA06">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>06</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MOA07">
                       <data_ele>127</data_ele>
                       <name>Claim Payment Remark Code</name>
                       <usage>S</usage>
                       <seq>07</seq>
-                      <valid_codes external="remark_code" />
+                      <valid_codes external="remark_code"/>
                     </element>
                     <element xid="MOA08">
                       <data_ele>782</data_ele>
@@ -12435,7 +12434,7 @@
                         <name>Other Insured State Code</name>
                         <usage>S</usage>
                         <seq>02</seq>
-                        <valid_codes external="states" />
+                        <valid_codes external="states"/>
                       </element>
                       <element xid="N403">
                         <data_ele>116</data_ele>
@@ -12448,7 +12447,7 @@
                         <name>Country Code</name>
                         <usage>S</usage>
                         <seq>04</seq>
-                        <valid_codes external="country" />
+                        <valid_codes external="country"/>
                       </element>
                       <element xid="N405">
                         <data_ele>309</data_ele>
@@ -12642,7 +12641,7 @@
                         <name>Other Payer State Code</name>
                         <usage>S</usage>
                         <seq>02</seq>
-                        <valid_codes external="states" />
+                        <valid_codes external="states"/>
                       </element>
                       <element xid="N403">
                         <data_ele>116</data_ele>
@@ -12655,7 +12654,7 @@
                         <name>Country Code</name>
                         <usage>S</usage>
                         <seq>04</seq>
-                        <valid_codes external="country" />
+                        <valid_codes external="country"/>
                       </element>
                       <element xid="N405">
                         <data_ele>309</data_ele>
@@ -16149,7 +16148,7 @@
                       <name>Patient State Code</name>
                       <usage>S</usage>
                       <seq>02</seq>
-                      <valid_codes external="states" />
+                      <valid_codes external="states"/>
                     </element>
                     <element xid="N403">
                       <data_ele>116</data_ele>
@@ -16162,7 +16161,7 @@
                       <name>Country Code</name>
                       <usage>S</usage>
                       <seq>04</seq>
-                      <valid_codes external="country" />
+                      <valid_codes external="country"/>
                     </element>
                     <element xid="N405">
                       <data_ele>309</data_ele>
@@ -25547,7 +25546,7 @@
                         <name>Country Code</name>
                         <usage>S</usage>
                         <seq>04</seq>
-                        <valid_codes external="country" />
+                        <valid_codes external="country"/>
                       </element>
                       <element xid="N405">
                         <data_ele>309</data_ele>
@@ -26172,7 +26171,7 @@
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>05</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MIA06">
                         <data_ele>782</data_ele>
@@ -26263,28 +26262,28 @@
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>20</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MIA21">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>21</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MIA22">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>22</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MIA23">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>23</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MIA24">
                         <data_ele>782</data_ele>
@@ -26316,35 +26315,35 @@
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>03</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MOA04">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>04</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MOA05">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>05</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MOA06">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>06</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MOA07">
                         <data_ele>127</data_ele>
                         <name>Claim Payment Remark Code</name>
                         <usage>S</usage>
                         <seq>07</seq>
-                        <valid_codes external="remark_code" />
+                        <valid_codes external="remark_code"/>
                       </element>
                       <element xid="MOA08">
                         <data_ele>782</data_ele>
@@ -26496,7 +26495,7 @@
                           <name>Other Insured State Code</name>
                           <usage>S</usage>
                           <seq>02</seq>
-                          <valid_codes external="states" />
+                          <valid_codes external="states"/>
                         </element>
                         <element xid="N403">
                           <data_ele>116</data_ele>
@@ -26509,7 +26508,7 @@
                           <name>Country Code</name>
                           <usage>S</usage>
                           <seq>04</seq>
-                          <valid_codes external="country" />
+                          <valid_codes external="country"/>
                         </element>
                         <element xid="N405">
                           <data_ele>309</data_ele>
@@ -26703,7 +26702,7 @@
                           <name>Other Payer State Code</name>
                           <usage>S</usage>
                           <seq>02</seq>
-                          <valid_codes external="states" />
+                          <valid_codes external="states"/>
                         </element>
                         <element xid="N403">
                           <data_ele>116</data_ele>
@@ -26716,7 +26715,7 @@
                           <name>Country Code</name>
                           <usage>S</usage>
                           <seq>04</seq>
-                          <valid_codes external="country" />
+                          <valid_codes external="country"/>
                         </element>
                         <element xid="N405">
                           <data_ele>309</data_ele>
