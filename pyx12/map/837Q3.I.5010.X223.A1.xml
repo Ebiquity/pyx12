@@ -2333,6 +2333,7 @@
                       <seq>02</seq>
                       <valid_codes>
                         <code>A</code>
+                        <code>B</code>
                       </valid_codes>
                     </element>
                     <element xid="CLM05-03">
@@ -2345,7 +2346,7 @@
                   <element xid="CLM06">
                     <data_ele>1073</data_ele>
                     <name>Yes/No Condition or Response Code</name>
-                    <usage>N</usage>
+                    <usage>S</usage>
                     <seq>06</seq>
                   </element>
                   <element xid="CLM07">
@@ -3476,7 +3477,7 @@
                   <composite xid="HI02">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
-                    <usage>N</usage>
+                    <usage>S</usage>
                     <seq>02</seq>
                   </composite>
                   <composite xid="HI03">
@@ -3613,7 +3614,7 @@
                   <composite xid="HI02">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
-                    <usage>N</usage>
+                    <usage>S</usage>
                     <seq>02</seq>
                   </composite>
                   <composite xid="HI03">
@@ -3682,7 +3683,7 @@
                   <name>Patient's Reason For Visit</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>1</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -3935,7 +3936,7 @@
                   <name>External Cause of Injury</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>1</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -4782,7 +4783,7 @@
                   <name>Diagnosis Related Group (DRG) Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>1</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -4849,7 +4850,7 @@
                   <composite xid="HI02">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
-                    <usage>N</usage>
+                    <usage>S</usage>
                     <seq>02</seq>
                   </composite>
                   <composite xid="HI03">
@@ -4918,7 +4919,7 @@
                   <name>Other Diagnosis Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -5765,7 +5766,7 @@
                   <name>Principal Procedure Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>1</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -5837,7 +5838,7 @@
                   <composite xid="HI02">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
-                    <usage>N</usage>
+                    <usage>S</usage>
                     <seq>02</seq>
                   </composite>
                   <composite xid="HI03">
@@ -5906,7 +5907,7 @@
                   <name>Other Procedure Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -6717,7 +6718,7 @@
                   <name>Occurrence Span Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -7516,7 +7517,7 @@
                   <name>Occurrence Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -8315,7 +8316,7 @@
                   <name>Value Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -9078,7 +9079,7 @@
                   <name>Condition Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -9841,7 +9842,7 @@
                   <name>Treatment Code Information</name>
                   <usage>S</usage>
                   <pos>2310</pos>
-                  <max_use>2</max_use>
+                  <max_use>25</max_use>
                   <composite xid="HI01">
                     <data_ele>C022</data_ele>
                     <name>Health Care Code Information</name>
@@ -16392,6 +16393,7 @@
                         <seq>02</seq>
                         <valid_codes>
                           <code>A</code>
+                          <code>B</code>
                         </valid_codes>
                       </element>
                       <element xid="CLM05-03">
@@ -16404,7 +16406,7 @@
                     <element xid="CLM06">
                       <data_ele>1073</data_ele>
                       <name>Yes/No Condition or Response Code</name>
-                      <usage>N</usage>
+                      <usage>S</usage>
                       <seq>06</seq>
                     </element>
                     <element xid="CLM07">
@@ -16572,6 +16574,7 @@
                       <usage>R</usage>
                       <seq>02</seq>
                       <valid_codes>
+                        <code>D8</code>
                         <code>RD8</code>
                       </valid_codes>
                     </element>
@@ -17461,7 +17464,7 @@
                     <name>Principal Diagnosis</name>
                     <usage>R</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -17535,7 +17538,7 @@
                     <composite xid="HI02">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
-                      <usage>N</usage>
+                      <usage>S</usage>
                       <seq>02</seq>
                     </composite>
                     <composite xid="HI03">
@@ -17604,7 +17607,7 @@
                     <name>Admitting Diagnosis</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -17672,7 +17675,7 @@
                     <composite xid="HI02">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
-                      <usage>N</usage>
+                      <usage>S</usage>
                       <seq>02</seq>
                     </composite>
                     <composite xid="HI03">
@@ -17741,7 +17744,7 @@
                     <name>Patient's Reason For Visit</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -17994,7 +17997,7 @@
                     <name>External Cause of Injury</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -18841,7 +18844,7 @@
                     <name>Diagnosis Related Group (DRG) Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -18908,7 +18911,7 @@
                     <composite xid="HI02">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
-                      <usage>N</usage>
+                      <usage>S</usage>
                       <seq>02</seq>
                     </composite>
                     <composite xid="HI03">
@@ -18977,7 +18980,7 @@
                     <name>Other Diagnosis Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -19824,7 +19827,7 @@
                     <name>Principal Procedure Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>1</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -19896,7 +19899,7 @@
                     <composite xid="HI02">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
-                      <usage>N</usage>
+                      <usage>S</usage>
                       <seq>02</seq>
                     </composite>
                     <composite xid="HI03">
@@ -19965,7 +19968,7 @@
                     <name>Other Procedure Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -20776,7 +20779,7 @@
                     <name>Occurrence Span Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -21575,7 +21578,7 @@
                     <name>Occurrence Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -22374,7 +22377,7 @@
                     <name>Value Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -23137,7 +23140,7 @@
                     <name>Condition Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -23900,7 +23903,7 @@
                     <name>Treatment Code Information</name>
                     <usage>S</usage>
                     <pos>2310</pos>
-                    <max_use>2</max_use>
+                    <max_use>25</max_use>
                     <composite xid="HI01">
                       <data_ele>C022</data_ele>
                       <name>Health Care Code Information</name>
@@ -27876,7 +27879,7 @@
                   <!--End of 2320 loop-->
                   <loop xid="2400">
                     <name>Service Line Number</name>
-                    <usage>R</usage>
+                    <usage>N</usage>
                     <pos>3650</pos>
                     <repeat>999</repeat>
                     <segment xid="LX">
